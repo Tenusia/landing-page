@@ -60,11 +60,8 @@ body {
 }
 
 .Hero-pic {
-    height: 200px;
-    width: 800px;
-    background-color: rgb(71, 68, 68);
-    padding: 10px 0px;
-    text-align: center;
+    display: flex;
+    height: 300px;
 }
 
 .Main {
@@ -78,13 +75,16 @@ body {
 
 .Pictures {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .pic {
-    background-color: #3882F6;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
 }
 
 .quote {
