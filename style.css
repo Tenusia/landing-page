@@ -59,11 +59,31 @@ body {
     border-radius: 8px;
 }
 
-.Hero-pic{
+.Hero-pic {
     height: 200px;
     width: 800px;
     background-color: rgb(71, 68, 68);
     padding: 10px 0px;
+    text-align: center;
+}
+
+.Main {
+    padding:0% 15% 50px;
+}
+
+.Main-Titel {
+    text-align: center;
+    padding: 10px;
+}
+
+.Pictures {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pic {
+    background-color: #3882F6;
     text-align: center;
 }
 
