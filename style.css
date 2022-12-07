@@ -22,7 +22,7 @@ body {
 
 .Header-bottom {
     display: flex;
-    justify-content: space-between;
+    
     padding: 40px;
     gap: 40px;
     font-size: 18px;
@@ -33,12 +33,17 @@ body {
     display:flex;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .Hero-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.Subtext-hero {
+    width: 85%;
 }
 
 .button {
@@ -51,15 +56,61 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
-img {
-    display:flex;
+.Hero-pic{
     height: 200px;
-    width: 2000px;
+    width: 800px;
     background-color: rgb(71, 68, 68);
     padding: 10px 0px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: "1F2937";
+    padding:50px 15%;
+}
+
+.signature {
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Signup {
+    background-color: #3882F6;
+    margin: 80px 10%;
+    padding: 4% 7%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-signup {
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    width: 150px;
+    height: 30px;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.Footer {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 20px;
     text-align: center;
 }
 
